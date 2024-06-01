@@ -19,7 +19,7 @@ Mais chaque modèle n'a pas été entrainné le même nombre de fois :
 |Wedone DoublePredictorAI v2.0|10000          |
 |Wedone DoublePredictorAI v3.0|20000          |
 |Wedone DoublePredictorAI v4.0|65000          |
-|Wedone DoublePredictorAI v4.0|100000         |
+|Wedone DoublePredictorAI v5.0|100000         |
 
 Les résultats :
 <p align="center">

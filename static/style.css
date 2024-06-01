@@ -1,0 +1,191 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Thème Clair */
+:root {
+    --background-color: #ffffff;
+    --text-color: #333333;
+    --border-color: #007bff;
+    --button-background: #007bff;
+    --button-text-color: #ffffff;
+    --font-family: 'Roboto', sans-serif; /* Police par défaut */
+}
+
+body {
+    font-family: var(--font-family); /* Utilisation de la police par défaut */
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.input-container,
+.model-selector,
+.button-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="number"],
+select,
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"]:focus,
+select:focus,
+button:focus {
+    border-color: #0056b3;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+button {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--button-background);
+    color: var(--button-text-color);
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--border-color);
+    margin-top: 20px;
+}
+
+.model-selector label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 30px;
+    background-color: var(--background-color);
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="#007bff" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+    color: var(--text-color);
+}
+
+select:hover {
+    border-color: #0056b3;
+}
+
+select option {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 10px;
+}
+
+/* Icône personnalisée pour la liste déroulante */
+/* Icône personnalisée pour la liste déroulante */
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #007bff;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+
+.select-wrapper.open::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+/* Thème Sombre */
+body.dark-mode {
+    --background-color: #1a1a1a;
+    --text-color: #ffffff;
+    --border-color: #007bff;
+    --button-background: #007bff;
+    --button-text-color: #ffffff;
+}
+
+.container.dark-mode {
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1); /* Ombre légère */
+}
+
+h1.dark-mode {
+    color: #007bff; /* Couleur de texte bleue */
+}
+
+.result.dark-mode {
+    color: #007bff; /* Couleur de texte bleue */
+}
+
+.model-selector label.dark-mode {
+    color: #ffffff; /* Couleur de texte blanche */
+}
+
+button.dark-mode:hover {
+    background-color: #0056b3; /* Couleur de fond plus foncée au survol */
+}
+
+select.dark-mode {
+    border-color: #0056b3; /* Changement de couleur de bordure au survol */
+}
+
+select.dark-mode option {
+    background-color: #1a1a1a; /* Couleur de fond des options */
+    color: #ffffff; /* Couleur de texte des options */
+}

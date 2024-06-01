@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedone DoublePredictorAI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Wedone DoublePredictorAI</h1>
+        <div class="input-container">
+            <input type="number" id="inputNumber" placeholder="Entrez un nombre">
+        </div>
+        <div class="model-selector">
+            <label for="modelSelect">Choix du modèle</label>
+            <div class="select-wrapper">
+                <select id="modelSelect">
+                    <option value="Wedone_DoublePredictorAI1">Wedone DoublePredictorAI 1.0</option>
+                    <option value="Wedone_DoublePredictorAI2">Wedone DoublePredictorAI 2.0</option>
+                    <option value="Wedone_DoublePredictorAI3">Wedone DoublePredictorAI 3.0</option>
+                    <option value="Wedone_DoublePredictorAI4" selected>Wedone DoublePredictorAI 4.0</option>
+                </select>                
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="btn" onclick="makePrediction()">Prédire</button>
+        </div>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

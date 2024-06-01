@@ -10,7 +10,7 @@ def load_model_by_name(model_name):
     return load_model(model_path)
 
 # Modèle par défaut
-model_name = 'Wedone_DoublePredictorAI2'
+model_name = 'Wedone_DoublePredictorAI6'
 model = load_model_by_name(model_name)
 
 @app.route('/')

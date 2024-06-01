@@ -1,6 +1,6 @@
 # Wedone DoublePredictorAI
 <p align="center">
-  <img src="https://github.com/WedoneOfficiel/Wedone-DoublePredictorAI/assets/110472725/7b28a0b4-7966-48d4-9368-1d96af393a2d" />
+  <img src="https://github.com/WedoneOfficiel/Wedone-DoublePredictorAI/assets/110472725/363a5cf2-8c53-46e2-a110-2c37783b5997" />
 </p>
 
 Wedone DoublePredictor AI est une IA qui est capable de prédire le double d'un nombre en ne connaissant pas la formule x*2. 
@@ -20,8 +20,10 @@ Mais chaque modèle n'a pas été entrainné le même nombre de fois :
 |Wedone DoublePredictorAI v3.0|20000          |
 |Wedone DoublePredictorAI v4.0|65000          |
 |Wedone DoublePredictorAI v5.0|100000         |
+|Wedone DoublePredictorAI v6.0|200000         |
 
 Les résultats :
+
 <p align="center">
-    <img src="https://github.com/WedoneOfficiel/Wedone-DoublePredictorAI/assets/110472725/7b1b6aa7-b857-434b-a263-9738a5b44649"/>
+    <img src="https://github.com/WedoneOfficiel/Wedone-DoublePredictorAI/assets/110472725/ebbe3318-0070-4383-b45e-a3af6f6a0885"/>
 </p>

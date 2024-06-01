@@ -13,7 +13,7 @@ Chaque modèle à été entrainé avec ces données :
 
 Mais chaque modèle n'a pas été entrainné le même nombre de fois :
 
-|Numéro de version            |Nombre d'epochs|
+|Version du modèle            |Nombre d'epochs|
 |-----------------------------|---------------|
 |Wedone DoublePredictorAI v1.0|6000           |
 |Wedone DoublePredictorAI v2.0|10000          |

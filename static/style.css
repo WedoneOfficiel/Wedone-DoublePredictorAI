@@ -128,7 +128,6 @@ select option {
 }
 
 /* Icône personnalisée pour la liste déroulante */
-/* Icône personnalisée pour la liste déroulante */
 .select-wrapper {
     position: relative;
 }
@@ -189,3 +188,4 @@ select.dark-mode option {
     background-color: #1a1a1a; /* Couleur de fond des options */
     color: #ffffff; /* Couleur de texte des options */
 }
+

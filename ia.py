@@ -18,10 +18,10 @@ sortie = np.array([2, 4, 6, 8, 10])
 model.compile(loss='mean_squared_error', optimizer='adam')
 
 # Entraînement du modèle
-model.fit(x=entree, y=sortie, epochs=100000)
+model.fit(x=entree, y=sortie, epochs=200000)
 
 # Sauvegarde du modèle
-model.save("Wedone_DoublePredictorAI5.keras")
+model.save("Wedone_DoublePredictorAI6.keras")
 
 # Boucle de prédiction
 while True:

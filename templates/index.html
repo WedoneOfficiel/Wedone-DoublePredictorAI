@@ -20,7 +20,8 @@
                     <option value="Wedone_DoublePredictorAI2">Wedone DoublePredictorAI 2.0</option>
                     <option value="Wedone_DoublePredictorAI3">Wedone DoublePredictorAI 3.0</option>
                     <option value="Wedone_DoublePredictorAI4">Wedone DoublePredictorAI 4.0</option>
-                    <option value="Wedone_DoublePredictorAI5" selected>Wedone DoublePredictorAI 5.0</option>
+                    <option value="Wedone_DoublePredictorAI5">Wedone DoublePredictorAI 5.0</option>
+                    <option value="Wedone_DoublePredictorAI6" selected>Wedone DoublePredictorAI 6.0</option>
                 </select>                
             </div>
         </div>
@@ -28,6 +29,7 @@
             <button class="btn" onclick="makePrediction()">Prédire</button>
         </div>
         <div class="result" id="result"></div>
+        <button id="themeToggle" onclick="toggleDarkMode()">Thème Sombre</button>
     </div>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>

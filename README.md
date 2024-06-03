@@ -42,6 +42,8 @@ Mais chaque modèle n'a pas été entrainné le même nombre de fois :
 |Wedone DoublePredictorAI v5.0a|100000         |
 |Wedone DoublePredictorAI v6.0a|200000         |
 
+## Les résultats des tests passés par chaque modèle 
+
 Les résultats des tests passés par les différents modèles de l'IA Wedone DoublePredictorAI :
 
 <p align="center">

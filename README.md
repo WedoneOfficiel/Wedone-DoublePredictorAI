@@ -1,4 +1,4 @@
-# Wedone DoublePredictorAI : Présentation
+# Présentation générale de Wedone DoublePredictorAI
 <p align="center">
   <img src="https://github.com/WedoneOfficiel/Wedone-DoublePredictorAI/assets/110472725/363a5cf2-8c53-46e2-a110-2c37783b5997" />
 </p>

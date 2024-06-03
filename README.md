@@ -7,6 +7,9 @@ Wedone DoublePredictor AI est une IA qui est capable de prédire le double d'un 
 Le code de cette IA est basé sur le contenu d'une vidéo de https://www.informatiquesanscomplexe.com/.
 
 # Les différents modèles
+Il existe à ce jour 12 modèles de l'IA Wedone DoublePredictorAI.
+
+## Les modèles de classe "basique" 
 Chaque modèle suivant à été entrainé avec ces données :
 - Entrée : [1, 2, 3, 4, 5] 
 - Sortie : [2, 4, 6, 8, 10]
@@ -21,6 +24,8 @@ Mais chaque modèle n'a pas été entrainné le même nombre de fois :
 |Wedone DoublePredictorAI v4.0|65000          |
 |Wedone DoublePredictorAI v5.0|100000         |
 |Wedone DoublePredictorAI v6.0|200000         |
+
+## Les modèles de classe a
 
 Chaque modèle suivant à été entrainé avec ces données :
 - Entrée : [0, 1, 2, 3, 4, 5] 
